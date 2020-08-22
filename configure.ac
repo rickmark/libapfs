@@ -1,0 +1,7 @@
+AC_INIT([libapfs], 1.0)
+AC_CONFIG_MACRO_DIR([m4/])
+AM_INIT_AUTOMAKE([subdir-objects foreign])
+AC_PROG_CC
+AX_CHECK_OPENSSL
+AC_CONFIG_FILES(Makefile)
+AC_OUTPUT
